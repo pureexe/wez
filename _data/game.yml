@@ -22,24 +22,24 @@
 - name: Chelsea
   thumbnail: /assets/images/game/chealsea-thumb.jpg
   url: https://www.facebook.com/267762916590462/photos/?tab=album&album_id=1180749041958507
-- name: Lyra
-  thumbnail: /assets/images/game/lyra_thumb.png
-  url: https://www.facebook.com/267762916590462/photos/?tab=album&album_id=1180749041958507
-- name: Dreaming Mary
-  thumbnail: /assets/images/game/mary_thumb.jpg
-  url: https://www.facebook.com/267762916590462/photos/?tab=album&album_id=1249932995040111
-- name: Blank Dream
-  thumbnail: /assets/images/game/blankdream-thumb.png
-  url: https://www.facebook.com/wezgame/photos/a.1231121750254569.1073741847.267762916590462/1231122253587852/?type=3&permPage=1
 - name: Dear Mariko
   thumbnail: /assets/images/game/dear-mariko.jpg
   url: https://www.facebook.com/wezgame/photos/a.1089219897778089.1073741836.267762916590462/1089219951111417/?type=3&theater
+- name: Blank Dream
+  thumbnail: /assets/images/game/blankdream-thumb.png
+  url: https://www.facebook.com/wezgame/photos/a.1231121750254569.1073741847.267762916590462/1231122253587852/?type=3&permPage=1
 - name: Memories
   thumbnail: /assets/images/game/memories-thumb.png
   url: https://www.facebook.com/wezgame/photos/a.1058666020833477.1073741832.267762916590462/1058666040833475/?type=3&theater
+- name: Dreaming Mary
+  thumbnail: /assets/images/game/mary_thumb.jpg
+  url: https://www.facebook.com/267762916590462/photos/?tab=album&album_id=1249932995040111
 - name: Dear red
   thumbnail: /assets/images/game/dearred-thumb.jpg
   url: https://www.facebook.com/wezgame/photos/a.1058657684167644.1073741830.267762916590462/1058657707500975/?type=3&theater
 - name: Akane
   thumbnail: /assets/images/game/akane-thumb.jpg
   url: https://www.facebook.com/wezgame/photos/a.1058656050834474.1073741829.267762916590462/1058656107501135/?type=3&permPage=1
+- name: Lyra
+  thumbnail: /assets/images/game/lyra_thumb.png
+  url: https://www.facebook.com/267762916590462/photos/?tab=album&album_id=1180749041958507
