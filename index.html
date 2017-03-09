@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<div class="home">
+  <section class="landing-header">
+    <div class="container">
+        <h1 class="text-center" style="font-weight: bold;line-height:7rem;"><span style="display:inline-block;">Whateverzone</span></h1>
+        <p class="lead">แปลเกม RPG Maker, WOLF RPG และเกมอินดี้ เป็นภาษาไทย/อังกฤษ</p>
+    </div>
+  </section>
+  <section class="landing-behide-scence">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="text-center">รู้จักกับพวกเรา</h2>
+          <p class="explain">
+            ทางเราทำหลากหลาย แต่เน้นแปลเกม RPG Maker และ WOLF RPG จากภาษาอังกฤษและภาษาญี่ปุ่นเป็นภาษาไทย
+            รวมถึงงานต่างๆที่หลากหลายจากแต่ละฝ่ายที่มีส่วนเกี่ยวข้องกับเกมเหล่านั้นไม่มากก็น้อยหรืออาจจะไม่มีเลย
+            และที่สำคัญ! งานที่ทำเกือบทั้งหมดนั้นจะเป็นงาน “ฟรี” (ยกเว้นบางกรณี อาจมีคนมาจ้างวาน หรือกรณีทำเกมขาย หรือทำสินค้าต่างๆ)
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img src="/assets/images/girl_of_horror_cut.jpg" class="img-responsive" style="margin: 0 auto;"/>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="landing-avaliable">
+    <div class="container">
+      <div class="text-center">
+        <h2 style="font-size: 3rem;margin-top:2rem;font-family:bangna-new">เกมแปลไทย</h2>
+        <div class="row">
+        {% for cGame in site.data.game %}
+          <div class="col-md-4">
+            <div class="card" style="position:relative;margin-top:10px;margin-bottom:10px;">
+                <a href="{{cGame.url}}" target="_blank">
+                  <div class="card-image">
+                  <img src="" style="background-image: url('{{cGame.thumbnail}}');width: 100%;height: 280px;background-position: center;background-size: cover;" scale="0">
+                  <span class="card-title" style="position:absolute;bottom:0;left:0;padding:20px;font-size: 24px;font-weight: 300;color: #fff;text-shadow: 0 0 0px #000, 0 0 5px #333;">{{cGame.name}}</span>
+                  </div>
+                </a>
+            </div>
+          </div>
+        {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
