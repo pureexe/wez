@@ -96,3 +96,8 @@
   background-position: center;
   background-size: cover;
 }
+@media screen and (max-width: $screen-xs-max) {
+  .landing-maintext {
+      font-size:3rem;
+  }
+}
