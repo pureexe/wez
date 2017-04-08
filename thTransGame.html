@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="home">
+  <section class="landing-avaliable">
+    <div class="container">
+      <div class="text-center">
+        <h2 style="font-size: 3rem;margin-top:2rem;font-family:bangna-new">เกมแปลไทย</h2>
+        <div class="row">
+        {% for cGame in site.data.game %}
+          <div class="col-md-4 col-sm-6">
+            <div class="card">
+                <a href="{{cGame.url}}" target="_blank">
+                  <div class="card-image">
+                  <img src="" style="background-image: url('{{cGame.thumbnail}}');" scale="0">
+                  <span class="card-title">{{cGame.name}}</span>
+                  </div>
+                </a>
+            </div>
+          </div>
+        {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
