@@ -1,12 +1,12 @@
 - name: เกมแปลไทย
   thumbnail: /assets/images/game/lieat2-thumb.jpg
-  url: https://wez.in.th/game
+  url: https://wez.in.th/gamethtrans
 - name: เกมแปลอังกฤษ
   thumbnail: /assets/images/game/hello-thumb.jpg
-  url: https://wez.in.th/game
+  url: https://wez.in.th/gameentrans
 - name: เกมคนไทย
   thumbnail: /assets/images/game/twh_thumb.png
-  url: https://wez.in.th/game
+  url: https://wez.in.th/gameth
 - name: เกมต่างชาติ
   thumbnail: /assets/images/game/twh_thumb.png
-  url: https://wez.in.th/game
+  url: https://wez.in.th/gameall
