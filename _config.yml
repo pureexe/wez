@@ -22,6 +22,27 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+collections:
+  article:
+    permalink: /:collection/:title
+    output: true
+  news:
+    layout: post
+    permalink: /:collection/:title
+    output: true
+
+defaults:
+   -
+    scope:
+      type: "article"
+    values:
+      layout: "post"
+   -
+    scope:
+      type: "news"
+    values:
+      layout: "post"
+
 # Build settings
 markdown: kramdown
 #theme: minima

@@ -111,3 +111,56 @@ h2{
 h3{
   font-family:bangna-new;
 }
+
+.post-teaser{
+  width: 100%;
+  margin-bottom: 0;
+  display: inline-block;
+  background-size: cover;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding: 5% 0%;
+  .meta{
+    color: rgba(56,56,56,0.5);
+    font-size: 0.9em;
+    letter-spacing: 0.1em;
+  }
+  .excerpt{
+    font-size: 1.25em;
+    line-height:1.5em
+  }
+}
+.post-content{
+  img{
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+  }
+  h1,h2,h3,h4{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  h2{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.7rem;
+  }
+}
+.post-render{
+  .meta{
+    color: rgba(56,56,56,0.5);
+    font-size: 0.9em;
+    letter-spacing: 0.1em;
+  }
+  .post-content{
+    font-size: 1.25em;
+    line-height:1.5em;
+  }
+  .post-header{
+    padding:20px;
+    margin-bottom: 6%;
+    margin-top: 6%;
+    h1{
+      font-weight: bold;
+      font-size: 2.5em;
+    }
+  }
+}
