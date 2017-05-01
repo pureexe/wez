@@ -7,6 +7,20 @@
     {{page.catchphrase}}
   </p>
   <p class="text-center"><a class="btn btn-primary btn-lg" href="{{page.download_link}}" target="_blank" role="button">ดาวน์โหลด</a></p>
+
+{% if page.additionals %}
+  <div class="container">
+    <div class="col-md-6">
+      <p style="font-size: 1.8rem;line-height: 3rem;">
+        *ดาวน์โหลดเพิ่มเติม(คลิกที่ลิงก์ด้านล่าง) <br>
+        {% for additional_item in page.additionals %}
+            <a href="{{additional_item.url}}">{{additional_item.title}}</a> <br>
+        {% endfor %}
+      </p>
+    </div>
+  </div>
+{% endif %}
+
 </section>
 <section style="padding-top: 5rem;padding-bottom: 5rem;">
   <div class="container">
