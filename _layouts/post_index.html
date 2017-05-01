@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<section class="landing-header">
+  <h1 class="text-center" style="font-weight: bold;line-height:7rem;">
+    <span style="display:inline-block;" class="landing-maintext">{{page.title}}</span>
+  </h1>
+</section>
+{% assign sorted = (site[page.collection] | sort: 'date') | reverse %}
+{%for post in sorted %}
+<div class="post-teaser">
+  <div class="container">
+    <h2>
+      <a href={{post.url}}>
+      {{post.title}}
+      </a>
+    </h2>
+    <p class="meta">
+      {{ post.date | date: "%-d %B" | replace:'January','มกราคม' | replace:'February','กุมภาพันธ์' | replace:'March','มีนาคม' | replace:'April','เมษายน' | replace:'May','พฤษภาคม' | replace:'June','มิถุนายน' | replace:'July','กรกฏาคม' | replace:'August','สิงหาคม' | replace:'September','กันยายน' | replace:'October','ตุลาคม' | replace:'November','พฤศจิกายน' | replace:'December','ธันวาคม' }} {{ post.date | date: "%Y" | plus:"543"}}
+    </p>
+    <div class="excerpt">
+      {{post.excerpt}}
+    </div>
+  </div>
+  </div>
+</div>
+{% endfor %}
