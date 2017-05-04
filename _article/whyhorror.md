@@ -29,4 +29,4 @@ date: 2017-05-04T00:00:00.000+07:00
 เราจะยังคงเล่น และชอบ เกม Horror ต่อไป… จนกว่าเราจะเจอ “Horror” พวกนั้นซ่ะเอง
 
 ## ผู้เขียน
-bbsaver (https://my.dek-d.com/jettanut/)
+([bbsaver](https://my.dek-d.com/jettanut))
