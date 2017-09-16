@@ -1,3 +1,6 @@
+- name: did
+  thumbnail: /assets/images/game/did-thumb.png
+  url: https://wez.in.th/game/did
 - name: Until Daybreak
   thumbnail: /assets/images/game/until-thumb.png
   url: https://wez.in.th/game/untildaybreak
