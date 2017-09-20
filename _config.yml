@@ -43,6 +43,7 @@ defaults:
     values:
       layout: "post"
 
+      
 # Build settings
 markdown: kramdown
 #theme: minima
