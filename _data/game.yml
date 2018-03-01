@@ -1,3 +1,6 @@
+- name: Friendly Bunny Mochi
+  thumbnail: /assets/images/game/mochi-thumb.png
+  url: https://wez.in.th/game/mochi
 - name: did
   thumbnail: /assets/images/game/did-thumb.png
   url: https://wez.in.th/game/did
