@@ -1,6 +1,3 @@
-- name: Ib
-  thumbnail: /assets/images/game/ib_thumb.png
-  url: https://wez.in.th/game/ib
 - name: Friendly Bunny Mochi
   thumbnail: /assets/images/game/bunny_thumb.png
   url: https://wez.in.th/game/mochi
