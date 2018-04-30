@@ -158,4 +158,4 @@ date: 2018-04-29 T00:00:00.000+07:00
 
 ## เครดิตข้อมูล
 
-อ้างอิงมาจาก http://www.vgperson.com/games/ib.htm และ http://ibgame.wikia.com/wiki/Endings
+อ้างอิงมาจาก [vgperson](http://www.vgperson.com/games/ib) และ [Wikia](http://ibgame.wikia.com/wiki/Endings)
