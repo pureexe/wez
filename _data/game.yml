@@ -1,3 +1,6 @@
+- name: LiEat III
+  thumbnail: /assets/images/game/lieat3-thumb.jpg
+  url: https://wez.in.th/game/lieat3
 - name: Ib
   thumbnail: /assets/images/game/ib_thumb.png
   url: https://wez.in.th/game/ib
