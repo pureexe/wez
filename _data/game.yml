@@ -1,3 +1,6 @@
+- name: Yanderella
+  thumbnail: /assets/images/game/yanderella-thumb.png
+  url: https://wez.in.th/game/yanderella
 - name: Those without Names
   thumbnail: /assets/images/game/thosenames-thumb.png
   url: https://wez.in.th/game/thosewithoutnames
