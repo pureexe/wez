@@ -1,3 +1,6 @@
+- name: PALETTA
+  thumbnail: /assets/images/game/paletta_thumb.png
+  url: https://wez.in.th/game/paletta
 - name: Dreamfarer
   thumbnail: /assets/images/game/dreamfarer_thumb.jpg
   url: https://wez.in.th/game/dreamfarer
