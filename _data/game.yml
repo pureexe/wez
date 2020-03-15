@@ -16,7 +16,7 @@
 - name: Wizard of White Box
   thumbnail: /assets/images/game/whitebox_thumb.png
   url: https://wez.in.th/game/whitebox
-- name: The Witches' Tea Party
+- name: *The Witches' Tea Party
   thumbnail: /assets/images/game/teaparty_thumb.png
   url: https://wez.in.th/game/teaparty
 - name: Yanderella
