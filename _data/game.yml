@@ -1,3 +1,5 @@
+- name: Starry Flowers
+  thumbnail: /assets/images/game/starryflowers-thumb.png
 - name: Whispering Dream
   thumbnail: /assets/images/game/whispering_thumb.png
   url: https://wez.in.th/game/whisperingdream
